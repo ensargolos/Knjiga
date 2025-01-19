@@ -1,0 +1,108 @@
+body{
+    background-color: #000000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+    
+ }
+main{
+    background-color: rgb(52, 27, 36);
+    color: aliceblue;
+    font-family: "amiri";
+    width: 991px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    padding:60px 0;
+
+}
+.title::after{
+    content: "";
+    height: 2px;
+    width: 120px;
+    display: block;
+    background:aliceblue;
+    position: absolute;
+    right: 490px;
+    top:220px;
+}
+.title::before{
+    content: "";
+    height: 2px;
+    width: 120px;
+    display: block;
+    background:aliceblue;
+    position: absolute;
+    left: 490px;
+    top:220px;
+}
+
+.book{
+    height: 480px;
+    object-fit:none;
+}
+#zalozba{
+    text-align: center;
+    font-family: "amiri";
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#zalozba-1{
+    text-align: center;
+    font-family: "Amiri";
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+hr{
+    width: 480px;
+    height: 1px;
+    background: aliceblue;
+    margin-bottom: 2rem;
+}
+.text{
+    display: flex;
+    font-family: "Amiri";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    gap: 140px;
+}
+#levo{
+    padding: 20px 0;
+    justify-content:flex-start;
+}
+#desno{
+    padding: 20px 0;
+    justify-content: flex-end;
+}
+button{
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "amiri";
+    padding: 10px;
+    border: 0;
+    font-weight:700;
+    font-size: 24px;
+    cursor: pointer;
+    margin:40px 0;
+}
+button:hover{
+    text-decoration-line: underline;
+    
+}
+.pero{
+    position: absolute;
+    right: 140px;
+    bottom: 100px;
+    height: 332px;
+    width: 488px;
+}
