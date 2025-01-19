@@ -1,5 +1,5 @@
 :root {
-    --background-color: #333;
+    --background-color: #161515;
     --text-color: #f4f4f4;
     --header-color:#000000;
     --section-color:#540000;
@@ -35,7 +35,17 @@ header nav a {
 footer{
     background-color: var(--header-color);
     display: flex;
+    position: relative;
+   
 
+
+}
+.footer-1{
+    color: #540000;
+    text-decoration: none;
+    display: flex;
+    align-items: end;
+    gap: 180px;
 
 }
 
@@ -46,7 +56,7 @@ footer{
     
     color:var(--section-color);
 }
-footer .icons a{
+.icons a{
     text-decoration: none;
     color: #540000;
     font-size: 1.5rem;

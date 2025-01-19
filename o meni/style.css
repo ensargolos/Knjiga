@@ -1,0 +1,79 @@
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    background-color: var(--header-color);
+    font-family: "Amiri";
+ }
+ main{
+    width: 991px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+ }
+ .title{
+    font-family: "amiri";
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 700;
+    margin:50px 0 0 0;
+    max-width: 800px;
+    text-transform: uppercase;
+
+ }
+ .title::before{
+    content: " ";
+    height: 2px;
+    width: 120px;
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 240px;
+    background: aliceblue;
+
+ }
+ .title::after{
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width:120px;
+    top: 70px;
+    right: 240px;
+    background:aliceblue;
+ }
+ p{
+    color: aliceblue;
+    font-family: "amiri";
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+ }
+ .red{
+    color: red; 
+    padding: 20px 0 30px 0; 
+    font-family:"amiri";
+ }
+ .naslov{
+    padding-top: 50px; 
+    font-family:" amiri"; 
+    color: aliceblue;
+ }
+ #gore{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 245px;
+    height: 200px;
+ }
+#dole{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 245px;
+    height: 200px;
+}
